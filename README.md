@@ -7,6 +7,8 @@ Versions:
 1. Woocommerce 2.5.0
 2. Bootstrap 3.3.6
 
+Under assets/css/ you can find the mystyle.css file, where you can add your stylew to the webpage.
+
 
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 

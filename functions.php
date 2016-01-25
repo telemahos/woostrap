@@ -125,8 +125,8 @@ function woostrap_scripts() {
 
 	// Register MyStyle CSS
 	wp_register_style(
-	    'mystyle', // handle name
-	    get_template_directory_uri() . '/assets/css/mystyle.css', // the URL of the stylesheet
+	    'main-css', // handle name
+	    get_template_directory_uri() . '/assets/css/main.css', // the URL of the stylesheet
 	    array(),//array( 'bootstrap-main' ), // an array of dependent styles
 	    '1.0.1', // version number
 	    'screen' // CSS media type
@@ -136,7 +136,7 @@ function woostrap_scripts() {
 
 	wp_enqueue_style( 'bootstrap' );
 
-	wp_enqueue_style( 'mystyle' );
+	wp_enqueue_style( 'main-css' );
 
 	wp_enqueue_script( 'woostrap-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
