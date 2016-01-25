@@ -1,3 +1,12 @@
+WooStrap
+===
+Woostrap is a blank woocommerce theme based on Automattic Underscores Theme, with bootstrap support
+
+Versions:
+1. Woocommerce 2.5.0
+2. Bootstrap 3.3.6
+
+
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 _s
