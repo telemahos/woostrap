@@ -35,6 +35,9 @@ function woostrap_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
+	// Allow Admin to access without auth the Woocrommerce rest api
+	// add_filter( 'woocommerce_api_check_authentication', function() { return new WP_User( 1 ); } );
+
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
@@ -139,6 +142,8 @@ function woostrap_scripts() {
 	wp_enqueue_style( 'main-css' );
 
 	wp_enqueue_script( 'woostrap-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+
+	wp_enqueue_script( 'woostrap-nav-menu', get_template_directory_uri() . '/js/nav-menu.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'woostrap-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 

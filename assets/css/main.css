@@ -1,3 +1,160 @@
 body  {
-   background: red;
+   /*background: red;*/
+}
+
+
+/* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+.navbar-default {
+    background: transparent;
+    border-color: #fff;
+}
+.navbar-default a {
+   font-size: 13px;
+   font-weight: 300;
+    color: #696a6a;
+    line-height: 41px;
+    text-transform: uppercase;
+    /*transition: all 0.3s ease 0s;*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #000000;
+    background-color: transparent;
+    /*border-bottom: 3px solid #0275C4;*/
+    border-bottom: 3px solid #CBCBCB;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #000000;
+    background-color: transparent;
+}
+.navbar {
+   margin: 50px 0px 0;
+   min-height: 72px;
+   border: none;
+}
+.navbar-nav {
+    /*float: right;*/
+    margin-left: 30px;
+}
+.nav > li > a {
+    padding: 0px 19px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    line-height: 41px;
+    /*margin-bottom: -1px;*/
+    margin-bottom: 3px;
+}
+.navbar-nav > li > a:hover {
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a {
+    background-image: linear-gradient(to bottom, #ffffff 0px, #ffffff 100%);
+    box-shadow: none;
+    color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #000000;
+    background-color: transparent;
+    /*border-bottom: 3px solid #0275C4;*/
+    border-bottom: 3px solid #CBCBCB;
+}
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #ffffff;
+    border-color: #e95317;
+}
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #e95317;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #333;
+    background-color: transparent;
+    /*background-color: #ededed;*/
+    /*border-bottom: 3px solid #0275C4;*/
+    border-bottom: 3px solid #CBCBCB;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #E7E7E7;
+    background: rgba(255,255,255, 1);
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 2px;
+    min-width: 193px;
+}
+.dropdown-menu {
+    padding: 0;
+}
+.dropdown-menu > li > a {
+    line-height: 35px;
+
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    color: #FFF;
+    background-color: #0275C4;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0275C4;
+}
+
+.stick-to-top {
+  margin-top: 0px;
+}
+#navbar {
+  box-shadow: 0px -10px 0px 0px rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  background: transparent -moz-linear-gradient(center top , #FFF 0%, #FCFCFC 100%) repeat scroll 0% 0%;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+/* ==========================================================================
+   NavBar Brand
+   ========================================================================== */
+.navbar-brand {
+   border: 5px solid #E4E4E4;
+   padding: 0px 10px 40px 10px;
+   margin-top: 12px;
+   transition: all 0.38s ease-in-out 0.38s;
+}
+.navbar-brand:hover {
+   border: 5px solid #cbcbcb;
+}
+a.navbar-brand  {
+   font-size: 18px;
+   line-height: 40px;
+}
+.navbar-brand span {
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    transition: all 0.62s ease-in-out 0.62s;
+    min-width: 5px;
+    transform: rotateY(0deg);
+}
+a.navbar-brand:hover span {
+    transform: rotateY(360deg);
 }
